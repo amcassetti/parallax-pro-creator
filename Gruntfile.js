@@ -72,14 +72,14 @@ module.exports = function (grunt) {
     // The actual grunt server settings
     connect: {
       options: {
-        port: 9000,
+        port: 8080,
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: '0.0.0.0',
         livereload: 35729
       },
       livereload: {
         options: {
-          open: 'http://localhost:9000',
+          open: 'http://localhost:8080',
           base: [
             '.tmp',
             '<%= yeoman.app %>'
@@ -88,7 +88,7 @@ module.exports = function (grunt) {
       },
       test: {
         options: {
-          port: 9001,
+          port: 8080,
           base: [
             '.tmp',
             'test',
@@ -121,7 +121,7 @@ module.exports = function (grunt) {
       }
     },
 
-    // Empties folders to start fresh
+    // Empties folders to start fresh`
     clean: {
       dist: {
         files: [{
