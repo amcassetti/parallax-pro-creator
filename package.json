@@ -40,7 +40,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "grunt serve",
+    "start": "grunt serve --force",
     "deploy": "gcloud app deploy app.yaml",
     "test": "grunt test"
   }
