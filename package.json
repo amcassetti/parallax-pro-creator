@@ -1,7 +1,6 @@
 {
   "name": "depthy",
   "version": "0.0.0",
-  // "dependencies": {},
   "dependencies": {
     "grunt": "~0.4.1",
     "grunt-angular-templates": "~0.5.4",
