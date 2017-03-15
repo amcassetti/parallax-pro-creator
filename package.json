@@ -43,8 +43,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "grunt build",
+    "start": "node app.js",
     "deploy": "gcloud app deploy app.yaml",
-    "test": "grunt test"
+    "test": "node app.js"
   }
 }
